@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 120px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: contain;
+    height: 50px;
+    width: 100%;
+    margin-right: 3px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/**box 2 **/
+.nav-address{
+    padding: 8px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-address > p{
+    font-size: .8rem;
+    color: #cccccc;
+    margin-left: 16px ;
+}
+
+.add-icon > p{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+/**box 3**/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(247, 167, 70);
+    height: 40px;
+    width: 750px;
+    border-radius: 5px;
+}
+.search-select{
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f3f3;
+    text-align: center;
+    border: none;
+}
+.input-search{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+
+}
+.search-icon{
+    width: 45px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0F1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/** box 4**/
+
+.nav-lang{
+    display: flex;
+    padding: 10px ;
+}
+
+.lang{
+    height: 19px;
+    color: white;
+    margin-right: 3px;
+}
+
+.lang-options{
+    font-size: .7rem;
+    background-color: #0F1111;
+    color: white;
+    border: none;
+}
+
+/**box 5**/
+
+.nav-account{
+    padding: 5px;
+}
+
+.account-sign-in{
+    font-size: .8rem;
+    margin-left: 5px;
+}
+
+.account-list{
+    font-size: 1rem;
+    background-color: #0F1111;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+/**box6**/
+
+.nav-orders {
+    padding: 5px;
+}
+.return-order{
+    font-size: .8rem;
+}
+
+.place-order{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/**box 7 **/
+
+.nav-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.cart{
+    padding: 7px;
+    font-size: 1.5rem;
+}
+.cart-word{
+    margin-right: 4px;
+    
+}
